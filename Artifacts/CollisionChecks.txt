@@ -1,0 +1,9 @@
+Mode: Play
+PASS cube x=3 blocked=True expected=True
+PASS cube x=3.5 blocked=True expected=True
+PASS cube x=4 blocked=False expected=False
+PASS cube x=4.01 blocked=False expected=False
+PASS cube x=5 blocked=False expected=False
+PASS cone x=3
+PASS cone x=3.4
+PASS cone x=5

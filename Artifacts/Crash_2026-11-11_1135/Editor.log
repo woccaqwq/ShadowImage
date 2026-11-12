@@ -1,0 +1,1353 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lenovo" at "2026-11-11T03:25:14.975694Z"
+[Licensing::Client] Code 1 while verifying Licensing Client signature (process Id: 31640, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.16.2'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-lenovo"
+[Licensing::IpcConnector] LicenseClient-lenovo channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-lenovo-2022.3.62 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 26660)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lenovo-2022.3.62" at "2026-11-11T03:25:18.0333202Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 26660, path: "E:/Unity/2022.3.62f3c1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.16.2+bdef8f5
+  Session Id:              9c8fe1e2e1f740689dc4d16ae5c0e69e
+  Correlation Id:          8544d2cb9aeae9fb9c7b802b96c9ec8d
+  External correlation Id: 2454049065506491932
+  Machine Id:              466U2oncXImUKgcVlT3f3qxAFvM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-lenovo-2022.3.62" (connect: 2.91s, validation: 0.19s, handshake: 0.09s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lenovo-2022.3.62-notifications" at "2026-11-11T03:25:18.3179657Z"
+[Licensing::Module] Connected to LicensingClient (PId: 26660, launch time: 0.13, total connection time: 3.19s)
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token PRVziMXgKd...
+[Licensing::Client] Successfully updated license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.62f3c1 (1623fc0bbb97) revision 1451004'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 32475 MB
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Serial number assigned to: "F4-52TC-WEBC-U75N-YGRG-XXXX"
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1, IsPro: 0
+[Licensing::Client] Successfully resolved entitlement details
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\2022.3.62f3c1\Editor\Unity.exe
+-projectpath
+E:\Unity\浮光掠影
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-lenovo
+-hubSessionId
+77a1bef0-dd7f-11f1-b6ac-3794e904fa45
+-accessToken
+PRVziMXgKddZ44K9gwDKgDpZ7CDIU9vvIcf8bZqxock01ef
+Successfully changed project path to: E:\Unity\浮光掠影
+E:/Unity/浮光掠影
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4984]  Target information:
+
+Player connection [4984]  * "[IP] 172.22.92.53 [Port] 55504 [Flags] 2 [Guid] 3541703268 [EditorId] 3541703268 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-KR3NQ8SP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [4984]  * "[IP] 10.241.92.53 [Port] 55504 [Flags] 2 [Guid] 3541703268 [EditorId] 3541703268 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-KR3NQ8SP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [4984]  * "[IP] 26.210.36.21 [Port] 55504 [Flags] 2 [Guid] 3541703268 [EditorId] 3541703268 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-KR3NQ8SP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [4984]  * "[IP] 192.168.56.1 [Port] 55504 [Flags] 2 [Guid] 3541703268 [EditorId] 3541703268 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-KR3NQ8SP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [4984]  * "[IP] 10.162.94.153 [Port] 55504 [Flags] 2 [Guid] 3541703268 [EditorId] 3541703268 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-KR3NQ8SP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [4984] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4984] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[Package Manager] UpmClient::Connect -- Connected to IPC stream "Upm-28648" after 0.7 seconds.
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 47 packages:
+  Packages from [https://packages.unity.cn]:
+    com.unity.collab-proxy@2.12.4 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.collab-proxy@2.12.4)
+    com.unity.textmeshpro@3.0.7 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.textmeshpro@3.0.7)
+    com.unity.timeline@1.7.7 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.timeline@1.7.7)
+    com.unity.visualscripting@1.9.4 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.visualscripting@1.9.4)
+    com.unity.ide.visualstudio@2.0.22 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.ide.visualstudio@2.0.22)
+    com.unity.ide.rider@3.0.36 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.ide.rider@3.0.36)
+    com.unity.ide.vscode@1.2.5 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.ide.vscode@1.2.5)
+    com.unity.editorcoroutines@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.editorcoroutines@1.0.0)
+    com.unity.performance.profile-analyzer@1.2.3 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.3)
+    com.unity.test-framework@1.1.33 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.test-framework@1.1.33)
+    com.unity.testtools.codecoverage@1.2.6 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.testtools.codecoverage@1.2.6)
+    com.unity.settings-manager@2.1.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.settings-manager@2.1.0)
+    com.unity.ext.nunit@1.0.6 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.ext.nunit@1.0.6)
+  Built-in packages:
+    com.unity.feature.development@1.0.1 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.feature.development@1.0.1)
+    com.unity.ugui@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.ugui@1.0.0)
+    com.unity.modules.ai@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.ai@1.0.0)
+    com.unity.modules.androidjni@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.androidjni@1.0.0)
+    com.unity.modules.animation@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.animation@1.0.0)
+    com.unity.modules.assetbundle@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.assetbundle@1.0.0)
+    com.unity.modules.audio@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.audio@1.0.0)
+    com.unity.modules.cloth@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.cloth@1.0.0)
+    com.unity.modules.director@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.director@1.0.0)
+    com.unity.modules.imageconversion@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.imageconversion@1.0.0)
+    com.unity.modules.imgui@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.imgui@1.0.0)
+    com.unity.modules.jsonserialize@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0)
+    com.unity.modules.particlesystem@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.particlesystem@1.0.0)
+    com.unity.modules.physics@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.physics@1.0.0)
+    com.unity.modules.physics2d@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.physics2d@1.0.0)
+    com.unity.modules.screencapture@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.screencapture@1.0.0)
+    com.unity.modules.terrain@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.terrain@1.0.0)
+    com.unity.modules.terrainphysics@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0)
+    com.unity.modules.tilemap@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.tilemap@1.0.0)
+    com.unity.modules.ui@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.ui@1.0.0)
+    com.unity.modules.uielements@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.uielements@1.0.0)
+    com.unity.modules.umbra@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.umbra@1.0.0)
+    com.unity.modules.unityanalytics@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0)
+    com.unity.modules.unitywebrequest@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0)
+    com.unity.modules.vehicles@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.vehicles@1.0.0)
+    com.unity.modules.video@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.video@1.0.0)
+    com.unity.modules.vr@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.vr@1.0.0)
+    com.unity.modules.wind@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.wind@1.0.0)
+    com.unity.modules.xr@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.xr@1.0.0)
+    com.unity.modules.subsystems@1.0.0 (location: E:\Unity\浮光掠影\Library\PackageCache\com.unity.modules.subsystems@1.0.0)
+[Subsystems] No new subsystems found in resolved package list.
+Package Manager log level set to [2]
+[Package Manager] Done registering packages in 0.34 seconds
+Artifact Garbage Collection - Removed 7 unused hashed content files
+Refreshing native plugins compatible for Editor in 1506.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f3c1 (1623fc0bbb97)
+[Subsystems] Discovering subsystems at path E:/Unity/2022.3.62f3c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/浮光掠影/Assets
+GfxDevice: creating device client; threaded=1; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
+    Vendor:   NVIDIA
+    VRAM:     7956 MB
+    Driver:   32.0.15.9174
+[Licensing::Client] Successfully resolved entitlement details
+Initialize mono
+Mono path[0] = 'E:/Unity/2022.3.62f3c1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2022.3.62f3c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/2022.3.62f3c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/2022.3.62f3c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: E:/Unity/2022.3.62f3c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/Unity/2022.3.62f3c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.391371 seconds.
+- Loaded All Assemblies, in  5.402 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.342 seconds
+Domain Reload Profiling: 5744ms
+	BeginReloadAssembly (3546ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (319ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (428ms)
+	LoadAllAssembliesAndSetupDomain (1103ms)
+		LoadAssemblies (3559ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1088ms)
+			TypeCache.Refresh (1087ms)
+				TypeCache.ScanAssembly (871ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (343ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (310ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (181ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: E:\Unity\������Ӱ\
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 303.9362ms
+Starting: E:\Unity\2022.3.62f3c1\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: E:/Unity/浮光掠影
+ExitCode: 0 Duration: 0s226ms
+*** Tundra build success (0.09 seconds), 0 items updated, 364 evaluated
+AssetDatabase: script compilation time: 4.919372s
+Begin MonoManager ReloadAssembly
+Total cache size 77576632
+Total cache size after purge 77576632
+- Loaded All Assemblies, in  4.083 seconds
+Refreshing native plugins compatible for Editor in 3.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Start importing Assets/Scripts/Editor/ConceptRoomBuilder.cs using Guid(d1adcea7e68bab846965c566bb588081) Importer(-1,00000000000000000000000000000000) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '498a23aab0e76a609db9998ffe3fcdae') in 0.018374 seconds
+Start importing Assets/Scripts/Player/FirstPersonPlayer.cs using Guid(32b2a30ec8e9462a80fe34c38a634211) Importer(-1,00000000000000000000000000000000) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9238c9fd8200371bdfbcf52fcd89771d') in 0.005810 seconds
+Start importing Assets/Scripts/Interaction/PuzzleInteraction.cs using Guid(849437c549b44c728d76d918ebfb1072) Importer(-1,00000000000000000000000000000000) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '7c0e4293a8b11d62dd2e6ea1a9da8fa3') in 0.006193 seconds
+Refreshing native plugins compatible for Editor in 3.61 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.520 seconds
+Domain Reload Profiling: 4603ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (3909ms)
+		LoadAssemblies (3619ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (371ms)
+			TypeCache.Refresh (353ms)
+				TypeCache.ScanAssembly (341ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (520ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (410ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=375a90ad46d61fe40a2110db5d55c550): Total: 28.956 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=3 (actual=3, local cache=0, cache server=0)
+		Asset DB Process Time: managed=2 ms, native=19002 ms
+		Asset DB Callback time: managed=307 ms, native=6 ms
+		Scripting: domain reloads=1, domain reload time=4696 ms, compile time=4921 ms, other=20 ms
+		Project Asset Count: scripts=4219, non-scripts=711
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeBeforeRefreshCallbacks: 0.521ms
+	ApplyChangesToAssetFolders: 0.043ms
+	Scan: 204.870ms
+	OnSourceAssetsModified: 0.001ms
+	GetAllGuidsForCategorization: 0.508ms
+	CategorizeAssets: 74.023ms
+	ImportOutOfDateAssets: 640.920ms (-4333.719ms without children)
+		ImportManagerImport: 36.531ms (5.218ms without children)
+			ImportInProcess: 31.276ms
+			UpdateCategorizedAssets: 0.037ms
+		CompileScripts: 4921.327ms
+		ReloadNativeAssets: 0.001ms
+		UnloadImportedAssets: 14.070ms
+		ReloadImportedAssets: 0.785ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.020ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 0.903ms
+	PostProcessAllAssets: 308.617ms
+	Hotreload: 4.196ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.001ms
+	UnloadStreamsBegin: 1.081ms
+	PersistCurrentRevisions: 0.264ms
+	UnloadStreamsEnd: 0.035ms
+	GenerateScriptTypeHashes: 0.443ms
+	Untracked: 27721.177ms
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Scanning for USB devices : 1.630ms
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-浮光掠影
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+ProgressiveSceneManager::Cancel()
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            12.758 ms
+	Integration:            14.975 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.041 ms
+	Total Operation Time:   27.779 ms
+Unloading 58 unused Assets / (477.6 KB). Loaded Objects now: 4615.
+Memory consumption went from 121.7 MB to 121.3 MB.
+Total: 3.775100 ms (FindLiveObjects: 0.422400 ms CreateObjectMapping: 0.086600 ms MarkObjects: 2.985600 ms  DeleteObjects: 0.279600 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-2022.dwlt, keepMainWindow=False
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+<RI> Initialized touch support.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+IsTimeToCheckForNewEditor: Update time 1794299206 current 1794367561
+<RI> Initializing input.
+<RI> Input initialized.
+[Project] Loading completed in 46.146 seconds
+	Project init time: 				41.172 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.709 seconds
+		Asset Database init time: 		0.568 seconds
+		Global illumination init time: 	0.043 seconds
+		Assemblies load time: 			5.760 seconds
+		Unity extensions init time: 	0.004 seconds
+		Asset Database refresh time: 	0.000 seconds
+	Scene opening time: 			0.660 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1794367561088,"processId":28648,"projectLoad":46.145500600000008,"projectInit":41.1721463,"templateInit":0.0,"packageManagerInit":0.7092203,"assetDatabaseInit":0.5681992,"globalIlluminationInit":0.0433204,"assembliesLoad":5.7601581,"unityExtensionsInit":0.0042137,"assetDatabaseRefresh":0.0,"sceneOpening":0.6604798}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1794367561088,"processId":28648,"editorVersion":"2022.3.62f3c1 (1623fc0bbb97)","branch":"2022.3/china_unity/release","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=e773303a6bedf77439b0047acfbcdbf6): Total: 0.020 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Created GICache directory at C:/Users/lenovo/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.120s, timestamps: [47.048 - 47.168]
+gi::BakeBackendSwitch: switching bake backend from 3 to 1.
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "PRVziMXg"... (expires: 2027-11-11T03:26:02Z)
+EditorUpdateCheck: Failed The requested URL returned error: 410
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "PRVziMXg"... (expires: 2027-11-11T03:26:03Z)
+Android Extension - Scanning For ADB Devices 2565 ms
+Android Extension - Scanning For ADB Devices 277 ms
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Android Extension - Scanning For ADB Devices 221 ms
+Android Extension - Scanning For ADB Devices 293 ms
+Asset Pipeline Refresh (id=499758fe42937ae4aa2d31898b238915): Total: 0.007 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=3dc9d62a8d0236a4dade827d4414c8e2): Total: 0.004 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=bd5bdf82c9679bd45998870326955032): Total: 0.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+<RI> Initialized touch support.
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.421 seconds
+Refreshing native plugins compatible for Editor in 3.97 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-浮光掠影
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.884 seconds
+Domain Reload Profiling: 1306ms
+	BeginReloadAssembly (301ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (32ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (151ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (63ms)
+		LoadAssemblies (140ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (884ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (308ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (374ms)
+Asset Pipeline Refresh (id=bd4ac2520c9f98c4fb36e14723843324): Total: 1.530 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=187 ms
+		Asset DB Callback time: managed=13 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1327 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=4219, non-scripts=711
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeBeforeRefreshCallbacks: 0.449ms
+	ApplyChangesToAssetFolders: 0.059ms
+	Scan: 0.001ms
+	OnSourceAssetsModified: 0.001ms
+	GetAllGuidsForCategorization: 0.671ms
+	CategorizeAssets: 69.713ms
+	ImportOutOfDateAssets: 903.172ms (899.215ms without children)
+		CompileScripts: 1.602ms
+		CollectScriptTypesHashes: 0.005ms
+		ReloadNativeAssets: 0.011ms
+		UnloadImportedAssets: 0.405ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.872ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 1.062ms
+	PostProcessAllAssets: 13.297ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.153ms
+	UnloadStreamsBegin: 0.073ms
+	PersistCurrentRevisions: 0.145ms
+	UnloadStreamsEnd: 0.036ms
+	GenerateScriptTypeHashes: 0.157ms
+	Untracked: 542.542ms
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.632 ms
+	Integration:            29.506 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       0.117 ms
+	Total Operation Time:   32.261 ms
+TrimDiskCacheJob: Current cache size 0mb
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.716 ms
+	Integration:            5.764 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.007 ms
+	Total Operation Time:   7.490 ms
+Unloading 94 unused Assets / (14.4 MB). Loaded Objects now: 5586.
+Memory consumption went from 155.9 MB to 141.5 MB.
+Total: 6.869600 ms (FindLiveObjects: 0.236200 ms CreateObjectMapping: 0.077300 ms MarkObjects: 5.044600 ms  DeleteObjects: 1.510600 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+AssetDatabase: script compilation time: 0.001129s
+[Licensing::Client] Successfully resolved entitlement details
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 1.4657ms
+Starting: E:\Unity\2022.3.62f3c1\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: E:/Unity/浮光掠影
+ExitCode: 4 Duration: 0s108ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+*** Tundra requires additional run (0.07 seconds), 0 items updated, 364 evaluated
+Starting: E:\Unity\2022.3.62f3c1\Editor\Data\Tools\netcorerun\netcorerun.exe "E:\Unity\2022.3.62f3c1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: E:/Unity/浮光掠影
+ExitCode: 0 Duration: 3s70ms
+Starting: E:\Unity\2022.3.62f3c1\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: E:/Unity/浮光掠影
+ExitCode: 0 Duration: 6s460ms
+Finished compiling graph: 367 nodes, 4508 flattened edges (3994 ToBuild, 60 ToUse), maximum node priority 300
+[219/364    0s] WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.rsp
+[BUSY       6s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[361/364    6s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[362/364    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[363/364    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (6.42 seconds), 4 items updated, 364 evaluated
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Total cache size 77576632
+Total cache size after purge 77576632
+- Loaded All Assemblies, in  0.754 seconds
+Start importing Assets/Scripts/Editor/CollisionChecks.cs using Guid(41e5ed8ca4c3a9845acccddec4a2145b) Importer(-1,00000000000000000000000000000000) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '045db9bd9b6e43ffabdac3cd2b15e5bd') in 0.021383 seconds
+Refreshing native plugins compatible for Editor in 5.65 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-浮光掠影
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.939 seconds
+Domain Reload Profiling: 1694ms
+	BeginReloadAssembly (491ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (153ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (211ms)
+		LoadAssemblies (278ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (940ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (358ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (331ms)
+Refreshing native plugins compatible for Editor in 4.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=2d6bba82e1739f846b8023ab1660f1f9): Total: 12.127 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=2 ms, native=312 ms
+		Asset DB Callback time: managed=126 ms, native=7 ms
+		Scripting: domain reloads=1, domain reload time=1726 ms, compile time=9951 ms, other=0 ms
+		Project Asset Count: scripts=4220, non-scripts=711
+		Asset File Changes: new=1, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeBeforeRefreshCallbacks: 1.382ms
+	ApplyChangesToAssetFolders: 0.123ms
+	Scan: 10.506ms
+	OnSourceAssetsModified: 2.643ms
+	GetAllGuidsForCategorization: 0.530ms
+	CategorizeAssets: 73.391ms
+	ImportOutOfDateAssets: 998.792ms (-8984.103ms without children)
+		ImportManagerImport: 29.216ms (7.370ms without children)
+			ImportInProcess: 21.818ms
+			UpdateCategorizedAssets: 0.028ms
+		CompileScripts: 9950.899ms
+		CollectScriptTypesHashes: 0.010ms
+		ReloadNativeAssets: 0.012ms
+		UnloadImportedAssets: 0.447ms
+		ReloadImportedAssets: 0.000ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.082ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 1.228ms
+	PostProcessAllAssets: 122.456ms
+	Hotreload: 7.902ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.353ms
+	UnloadStreamsBegin: 0.275ms
+	PersistCurrentRevisions: 0.281ms
+	UnloadStreamsEnd: 0.040ms
+	GenerateScriptTypeHashes: 0.151ms
+	Untracked: 10907.995ms
+Destroy may not be called from edit mode! Use DestroyImmediate instead.
+Destroying an object in edit mode destroys it permanently.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Destroy (UnityEngine.Object)
+PlacementOverlapProbe:Dispose () (at Assets/Scripts/Puzzle/PlacementOverlapProbe.cs:51)
+PuzzlePiece:RestoreCollision () (at Assets/Scripts/Interaction/PuzzlePiece.cs:40)
+CollisionChecks:Run () (at Assets/Scripts/Editor/CollisionChecks.cs:27)
+CollisionChecks/<>c:<.cctor>b__0_0 () (at Assets/Scripts/Editor/CollisionChecks.cs:8)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+[Assets/Scripts/Puzzle/PlacementOverlapProbe.cs line 51]
+
+Destroy may not be called from edit mode! Use DestroyImmediate instead.
+Destroying an object in edit mode destroys it permanently.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Object:Destroy (UnityEngine.Object)
+PlacementOverlapProbe:Dispose () (at Assets/Scripts/Puzzle/PlacementOverlapProbe.cs:51)
+PuzzlePiece:RestoreCollision () (at Assets/Scripts/Interaction/PuzzlePiece.cs:40)
+CollisionChecks:Run () (at Assets/Scripts/Editor/CollisionChecks.cs:32)
+CollisionChecks/<>c:<.cctor>b__0_0 () (at Assets/Scripts/Editor/CollisionChecks.cs:8)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+[Assets/Scripts/Puzzle/PlacementOverlapProbe.cs line 51]
+
+FAIL cube x=3 blocked=False expected=True
+FAIL cube x=3.5 blocked=False expected=True
+PASS cube x=4 blocked=False expected=False
+PASS cube x=4.01 blocked=False expected=False
+PASS cube x=5 blocked=False expected=False
+FAIL cone x=3
+FAIL cone x=3.4
+PASS cone x=5
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CollisionChecks:Run () (at Assets/Scripts/Editor/CollisionChecks.cs:33)
+CollisionChecks/<>c:<.cctor>b__0_0 () (at Assets/Scripts/Editor/CollisionChecks.cs:8)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Scripts/Editor/CollisionChecks.cs Line: 33)
+
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+AssetDatabase: script compilation time: 0.001166s
+[Licensing::Client] Successfully resolved entitlement details
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 0.6309ms
+Starting: E:\Unity\2022.3.62f3c1\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: E:/Unity/浮光掠影
+ExitCode: 0 Duration: 4s132ms
+[358/364    4s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+[362/364    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[363/364    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (4.08 seconds), 3 items updated, 364 evaluated
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Total cache size 77576632
+Total cache size after purge 77576632
+- Loaded All Assemblies, in  0.537 seconds
+Start importing Assets/Scripts/Puzzle/PlacementOverlapProbe.cs using Guid(7a5c553b3a094325bb6ac60466bd13a8) Importer(-1,00000000000000000000000000000000) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '06d8450a4f158b0a63beacb669280855') in 0.019808 seconds
+Refreshing native plugins compatible for Editor in 3.85 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-浮光掠影
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.976 seconds
+Domain Reload Profiling: 1515ms
+	BeginReloadAssembly (372ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (50ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (170ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (106ms)
+		LoadAssemblies (185ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (976ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (374ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (219ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (354ms)
+Refreshing native plugins compatible for Editor in 4.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=9efdd3b881d88584c829fd96f6f75a5f): Total: 6.135 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=2 ms, native=216 ms
+		Asset DB Callback time: managed=28 ms, native=6 ms
+		Scripting: domain reloads=1, domain reload time=1532 ms, compile time=4348 ms, other=0 ms
+		Project Asset Count: scripts=4220, non-scripts=711
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeBeforeRefreshCallbacks: 0.555ms
+	ApplyChangesToAssetFolders: 0.057ms
+	Scan: 2.792ms
+	OnSourceAssetsModified: 2.044ms
+	GetAllGuidsForCategorization: 0.291ms
+	CategorizeAssets: 70.618ms
+	ImportOutOfDateAssets: 1012.699ms (-3364.000ms without children)
+		ImportManagerImport: 25.543ms (5.335ms without children)
+			ImportInProcess: 20.187ms
+			UpdateCategorizedAssets: 0.021ms
+		CompileScripts: 4348.353ms
+		CollectScriptTypesHashes: 0.006ms
+		ReloadNativeAssets: 0.009ms
+		UnloadImportedAssets: 0.113ms
+		ReloadImportedAssets: 0.360ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.918ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 1.396ms
+	PostProcessAllAssets: 27.552ms
+	Hotreload: 5.695ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.326ms
+	UnloadStreamsBegin: 0.137ms
+	PersistCurrentRevisions: 0.230ms
+	UnloadStreamsEnd: 0.037ms
+	GenerateScriptTypeHashes: 0.220ms
+	Untracked: 5012.378ms
+PASS cube x=3 blocked=True expected=True
+PASS cube x=3.5 blocked=True expected=True
+PASS cube x=4 blocked=False expected=False
+PASS cube x=4.01 blocked=False expected=False
+PASS cube x=5 blocked=False expected=False
+PASS cone x=3
+PASS cone x=3.4
+PASS cone x=5
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CollisionChecks:Run () (at Assets/Scripts/Editor/CollisionChecks.cs:33)
+CollisionChecks/<>c:<.cctor>b__0_0 () (at Assets/Scripts/Editor/CollisionChecks.cs:8)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Scripts/Editor/CollisionChecks.cs Line: 33)
+
+Asset Pipeline Refresh (id=6915ab278abb48e49adf6bdb57f8ca6e): Total: 0.004 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[ScriptCompilation] Requested script compilation because: Assetdatabase observed changes in script compilation related files
+AssetDatabase: script compilation time: 0.001038s
+Start importing Assets/Scripts/Editor/CollisionChecks.cs using Guid(41e5ed8ca4c3a9845acccddec4a2145b) Importer(-1,00000000000000000000000000000000) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '3923100f41fe2a418d0a34872e1d75f2') in 0.001753 seconds
+Start importing Assets/Scripts/README.md using Guid(9db2445db23d7004583b954d6ca92479) Importer(-1,00000000000000000000000000000000) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'aa26401d0745c5c861ecdcbab1e2873c') in 0.007478 seconds
+Refreshing native plugins compatible for Editor in 3.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Asset Pipeline Refresh (id=8e6b8ccd6b830c945a7fee78a6710cb2): Total: 0.032 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+[Licensing::Client] Successfully resolved entitlement details
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping application/grpc - - 200 - application/grpc 0.2404ms
+Starting: E:\Unity\2022.3.62f3c1\Editor\Data\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: E:/Unity/浮光掠影
+ExitCode: 0 Duration: 0s315ms
+[361/364    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+[362/364    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[363/364    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (0.26 seconds), 3 items updated, 364 evaluated
+Reloading assemblies after finishing script compilation.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Total cache size 77576632
+Total cache size after purge 77576632
+- Loaded All Assemblies, in  0.535 seconds
+Refreshing native plugins compatible for Editor in 3.79 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-浮光掠影
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.946 seconds
+Domain Reload Profiling: 1483ms
+	BeginReloadAssembly (374ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (163ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (106ms)
+		LoadAssemblies (171ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (947ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (349ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (346ms)
+Asset Pipeline Refresh (id=fd5581f581bcd4e479925b15872f2dc0): Total: 1.709 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=197 ms
+		Asset DB Callback time: managed=10 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1498 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=4220, non-scripts=711
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeBeforeRefreshCallbacks: 0.619ms
+	ApplyChangesToAssetFolders: 0.066ms
+	Scan: 0.001ms
+	OnSourceAssetsModified: 0.001ms
+	GetAllGuidsForCategorization: 0.630ms
+	CategorizeAssets: 77.691ms
+	ImportOutOfDateAssets: 958.407ms (953.302ms without children)
+		CompileScripts: 1.710ms
+		CollectScriptTypesHashes: 0.005ms
+		ReloadNativeAssets: 0.026ms
+		UnloadImportedAssets: 0.238ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.459ms
+		InitializingProgressBar: 0.001ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 1.665ms
+	PostProcessAllAssets: 10.640ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.291ms
+	UnloadStreamsBegin: 0.089ms
+	PersistCurrentRevisions: 0.162ms
+	UnloadStreamsEnd: 0.036ms
+	GenerateScriptTypeHashes: 0.241ms
+	Untracked: 660.114ms
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.412 seconds
+Refreshing native plugins compatible for Editor in 3.89 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-浮光掠影
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.882 seconds
+Domain Reload Profiling: 1295ms
+	BeginReloadAssembly (304ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (35ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (156ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (55ms)
+		LoadAssemblies (127ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (883ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (295ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (209ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (377ms)
+Asset Pipeline Refresh (id=c1bac054aa67c5748ad15f574a1c80c5): Total: 1.517 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=194 ms
+		Asset DB Callback time: managed=10 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1309 ms, compile time=2 ms, other=0 ms
+		Project Asset Count: scripts=4220, non-scripts=711
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeBeforeRefreshCallbacks: 0.482ms
+	ApplyChangesToAssetFolders: 0.055ms
+	Scan: 0.001ms
+	OnSourceAssetsModified: 0.001ms
+	GetAllGuidsForCategorization: 0.616ms
+	CategorizeAssets: 73.922ms
+	ImportOutOfDateAssets: 893.160ms (889.111ms without children)
+		CompileScripts: 1.624ms
+		CollectScriptTypesHashes: 0.005ms
+		ReloadNativeAssets: 0.011ms
+		UnloadImportedAssets: 0.108ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.920ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 1.379ms
+	PostProcessAllAssets: 10.362ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.321ms
+	UnloadStreamsBegin: 0.063ms
+	PersistCurrentRevisions: 0.180ms
+	UnloadStreamsEnd: 0.055ms
+	GenerateScriptTypeHashes: 0.175ms
+	Untracked: 537.395ms
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.129 ms
+	Integration:            23.911 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.011 ms
+	Total Operation Time:   26.055 ms
+Mode: Play
+PASS cube x=3 blocked=True expected=True
+PASS cube x=3.5 blocked=True expected=True
+PASS cube x=4 blocked=False expected=False
+PASS cube x=4.01 blocked=False expected=False
+PASS cube x=5 blocked=False expected=False
+PASS cone x=3
+PASS cone x=3.4
+PASS cone x=5
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+CollisionChecks:Run () (at Assets/Scripts/Editor/CollisionChecks.cs:43)
+CollisionChecks/<>c:<.cctor>b__0_2 () (at Assets/Scripts/Editor/CollisionChecks.cs:11)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+(Filename: Assets/Scripts/Editor/CollisionChecks.cs Line: 43)
+
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.226 ms
+	Integration:            8.904 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.011 ms
+	Total Operation Time:   11.145 ms
+Unloading 40 unused Assets / (67.5 KB). Loaded Objects now: 5608.
+Memory consumption went from 143.0 MB to 143.0 MB.
+Total: 7.572500 ms (FindLiveObjects: 0.475600 ms CreateObjectMapping: 0.141900 ms MarkObjects: 6.740500 ms  DeleteObjects: 0.212800 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=f23b390dd73e7654ea79a12d47776e67): Total: 0.008 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.390 seconds
+Refreshing native plugins compatible for Editor in 3.64 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-浮光掠影
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.821 seconds
+Domain Reload Profiling: 1213ms
+	BeginReloadAssembly (276ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (148ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (62ms)
+		LoadAssemblies (126ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (821ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (282ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (197ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (340ms)
+Asset Pipeline Refresh (id=8715b5071e23f1b478c34e53be81cc34): Total: 1.451 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=189 ms
+		Asset DB Callback time: managed=11 ms, native=0 ms
+		Scripting: domain reloads=1, domain reload time=1248 ms, compile time=1 ms, other=0 ms
+		Project Asset Count: scripts=4220, non-scripts=711
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokeBeforeRefreshCallbacks: 0.481ms
+	ApplyChangesToAssetFolders: 0.061ms
+	Scan: 0.001ms
+	OnSourceAssetsModified: 0.001ms
+	GetAllGuidsForCategorization: 0.474ms
+	CategorizeAssets: 69.754ms
+	ImportOutOfDateAssets: 854.857ms (850.280ms without children)
+		CompileScripts: 1.466ms
+		CollectScriptTypesHashes: 0.006ms
+		ReloadNativeAssets: 0.011ms
+		UnloadImportedAssets: 0.441ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.907ms
+		InitializingProgressBar: 0.000ms
+		PostProcessAllAssetNotificationsAddChangedAssets: 0.001ms
+		OnDemandSchedulerStart: 1.744ms
+	PostProcessAllAssets: 11.283ms
+	GatherAllCurrentPrimaryArtifactRevisions: 0.157ms
+	UnloadStreamsBegin: 0.069ms
+	PersistCurrentRevisions: 0.181ms
+	UnloadStreamsEnd: 0.035ms
+	GenerateScriptTypeHashes: 0.166ms
+	Untracked: 513.539ms
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.470 ms
+	Integration:            22.617 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       0.033 ms
+	Total Operation Time:   25.125 ms
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a UNKNOWN while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+	  at UnityEditor.StyleSheets.StylePainter:DrawBlock <0x01198>
+	  at UnityEditor.StyleSheets.StylePainter:DrawStyle <0x00792>
+	  at <Module>:invoke_bool_GUIStyle_Rect_GUIContent_DrawStates <0x001c3>
+	  at UnityEngine.GUIStyle:Draw <0x00270>
+	  at UnityEngine.GUIStyle:Draw <0x00072>
+	  at UnityEditor.DockArea:DrawDockAreaBackground <0x00112>
+	  at UnityEditor.DockArea:OldOnGUI <0x0044a>
+	  at UnityEngine.UIElements.IMGUIContainer:DoOnGUI <0x00a1e>
+	  at UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent <0x0040a>
+	  at UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint <0x0056a>
+	  at UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh <0x00683>
+	  at UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain <0x013a2>
+	  at UnityEngine.UIElements.UIR.RenderChain:Render <0x006e2>
+	  at UnityEngine.UIElements.UIRRepaintUpdater:Update <0x0025a>
+	  at UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase <0x000d5>
+	  at UnityEngine.UIElements.Panel:UpdateForRepaint <0x000aa>
+	  at UnityEngine.UIElements.Panel:Repaint <0x00272>
+	  at UnityEngine.UIElements.UIElementsUtility:DoDispatch <0x00186>
+	  at UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent <0x000f2>
+	  at UnityEngine.UIElements.UIEventRegistration:ProcessEvent <0x0008e>
+	  at <>c:<.cctor>b__1_2 <0x0002a>
+	  at UnityEngine.GUIUtility:ProcessEvent <0x00124>
+	  at <Module>:runtime_invoke_void_int_intptr_intptr& <0x00095>
+=================================================================
+Crash!!!
+SymInit: Symbol-SearchPath: 'E:/Unity/2022.3.62f3c1/Editor/Data/Mono;.;E:\Unity\������Ӱ;E:\Unity\������Ӱ\Library\BurstCache\JIT;E:\Unity\2022.3.62f3c1\Editor;C:\WINDOWS;C:\WINDOWS\s', symOptions: 534, UserName: 'lenovo'
+OS-Version: 10.0.0
+E:\Unity\2022.3.62f3c1\Editor\Unity.exe:Unity.exe (00007FF742080000), size: 96317440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2022.3.62.9212
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FF866EB0000), size: 2539520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FF866C30000), size: 831488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FF864520000), size: 4231168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FF864930000), size: 1564672 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FF8643C0000), size: 1359872 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9711
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FF866010000), size: 1957888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FF8640E0000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FF865320000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8328
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FF8641D0000), size: 1216512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FF864AC0000), size: 667648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9711
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FF8651F0000), size: 770048 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FF865EF0000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.26100.9711
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FF864F80000), size: 688128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FF865030000), size: 1146880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FF866470000), size: 8060928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FF865FA0000), size: 425984 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FF8662D0000), size: 1675264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FF864B70000), size: 3821568 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FF866200000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FF865660000), size: 4747264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FF866240000), size: 524288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FF865500000), size: 892928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\WINTRUST.dll:WINTRUST.dll (00007FF864050000), size: 536576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+E:\Unity\2022.3.62f3c1\Editor\s3tcompress.dll:s3tcompress.dll (00007FFFBDC50000), size: 180224 (result: 0), SymType: '-deferred-', PDB: ''
+E:\Unity\2022.3.62f3c1\Editor\ispc_texcomp.dll:ispc_texcomp.dll (00007FFF5F3C0000), size: 1826816 (result: 0), SymType: '-deferred-', PDB: ''
+E:\Unity\2022.3.62f3c1\Editor\compress_bc7e.dll:compress_bc7e.dll (00007FFF5F260000), size: 1433600 (result: 0), SymType: '-deferred-', PDB: ''
+E:\Unity\2022.3.62f3c1\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (00007FF818450000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.1812.6001
+E:\Unity\2022.3.62f3c1\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (00007FFF5F130000), size: 1187840 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFFB2DB0000), size: 1097728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFFB2D70000), size: 229376 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FF862720000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FF85D0E0000), size: 1191936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FF85D030000), size: 221184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\bcrypt.dll:bcrypt.dll (00007FF863F30000), size: 172032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FF862330000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FF860260000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+E:\Unity\2022.3.62f3c1\Editor\OpenRL.dll:OpenRL.dll (0000000180000000), size: 12779520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.5.0.2907
+E:\Unity\2022.3.62f3c1\Editor\etccompress.dll:etccompress.dll (00007FFF5EC50000), size: 5070848 (result: 0), SymType: '-deferred-', PDB: ''
+E:\Unity\2022.3.62f3c1\Editor\SketchUpAPI.dll:SketchUpAPI.dll (00007FFF5E3B0000), size: 8990720 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FF85D250000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\SYSTEM32\WSOCK32.dll:WSOCK32.dll (00007FF851550000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
+C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FF847710000), size: 643072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.51.36247.0
+C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FF8484F0000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.51.36247.0
+E:\Unity\2022.3.62f3c1\Editor\libfbxsdk.dll:libfbxsdk.dll (00007FFF5DC00000), size: 8019968 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2020.3.7.0
+C:\WINDOWS\SYSTEM32\MSVCP100.dll:MSVCP100.dll (0000000055030000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
+C:\WINDOWS\SYSTEM32\MSVCR100.dll:MSVCR100.dll (0000000054F50000), size: 860160 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.40219.325
+E:\Unity\2022.3.62f3c1\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (00007FFF7FE20000), size: 499712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 23.0.0.0
+C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FF847270000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.51.36247.0
+C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FF85FED0000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7705
+C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FF860770000), size: 303104 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FF862FB0000), size: 303104 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+E:\Unity\2022.3.62f3c1\Editor\embree.dll:embree.dll (00007FFF5CC10000), size: 16711680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.14.0.0
+E:\Unity\2022.3.62f3c1\Editor\tbb.dll:tbb.dll (00007FFF81A50000), size: 413696 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2017.0.2016.1004
+C:\WINDOWS\SYSTEM32\MSVCP120.dll:MSVCP120.dll (00007FFF5CB60000), size: 679936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.40664.0
+C:\WINDOWS\SYSTEM32\MSVCR120.dll:MSVCR120.dll (00007FFF5CA70000), size: 978944 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 12.0.40664.0
+E:\Unity\2022.3.62f3c1\Editor\NativeProxyHelper.dll:NativeProxyHelper.dll (00007FFF5C8B0000), size: 1789952 (result: 0), SymType: '-deferred-', PDB: ''
+E:\Unity\2022.3.62f3c1\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (000001B788650000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.9.0.0
+E:\Unity\2022.3.62f3c1\Editor\FreeImage.dll:FreeImage.dll (000001B788660000), size: 5783552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.18.0.0
+C:\WINDOWS\SYSTEM32\MSWSOCK.DLL:MSWSOCK.DLL (00007FF8632B0000), size: 438272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\MSASN1.dll:MSASN1.dll (00007FF863620000), size: 77824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9711
+C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL:CRYPTBASE.DLL (00007FF8635C0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9711
+C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FF864300000), size: 704512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\cfgmgr32.DLL:cfgmgr32.DLL (00007FF863C30000), size: 335872 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FF862CD0000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FF860140000), size: 696320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\ProgramData\A-Volute\A-Volute.Nahimic\Modules\Scheduled\x64\AudioDevProps2.dll:AudioDevProps2.dll (00007FFFC9C50000), size: 1257472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2.6.31.0
+C:\WINDOWS\SYSTEM32\apphelp.dll:apphelp.dll (00007FF85FF20000), size: 651264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\windows.storage.dll:windows.storage.dll (00007FF861A60000), size: 9175040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\SHCORE.dll:SHCORE.dll (00007FF865CE0000), size: 1015808 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FF863F60000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FF8635A0000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FF862C30000), size: 233472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7705
+C:\WINDOWS\System32\imagehlp.dll:imagehlp.dll (00007FF864F40000), size: 131072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.4202
+C:\WINDOWS\SYSTEM32\gpapi.dll:gpapi.dll (00007FF863320000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\Windows\System32\cryptnet.dll:cryptnet.dll (00007FF859810000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\WINNSI.DLL:WINNSI.DLL (00007FF8600D0000), size: 57344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FF865EE0000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\system32\IconCodecService.dll:IconCodecService.dll (00007FF839210000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
+C:\WINDOWS\SYSTEM32\WindowsCodecs.dll:WindowsCodecs.dll (00007FF85F180000), size: 2347008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FF8653A0000), size: 716800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
+C:\WINDOWS\System32\netprofm.dll:netprofm.dll (00007FF85E580000), size: 450560 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\npmproxy.dll:npmproxy.dll (00007FF85B140000), size: 102400 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9711
+C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FF85D260000), size: 122880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FF85D0B0000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FF862760000), size: 1359872 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\DSPARSE.dll:DSPARSE.dll (00007FF863040000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
+C:\WINDOWS\system32\napinsp.dll:napinsp.dll (00007FF836630000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\WINDOWS\System32\winrnr.dll:winrnr.dll (00007FF832200000), size: 77824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\system32\nlansp_c.dll:nlansp_c.dll (00007FF832C20000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\system32\wshbth.dll:wshbth.dll (00007FF85B860000), size: 90112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FF85B7D0000), size: 548864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FF85D290000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9711
+E:\Unity\2022.3.62f3c1\Editor\NVUnityPlugin.DLL:NVUnityPlugin.DLL (00007FFF58080000), size: 1609728 (result: 0), SymType: '-deferred-', PDB: ''
+E:\Unity\2022.3.62f3c1\Editor\Data\Tools\astcenc-avx2.dll:astcenc-avx2.dll (00007FFF57FF0000), size: 540672 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\MSCTF.dll:MSCTF.dll (00007FF866D00000), size: 1425408 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\textinputframework.dll:textinputframework.dll (00007FF82FDB0000), size: 1335296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\CoreMessaging.dll:CoreMessaging.dll (00007FF85FAA0000), size: 1232896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\CoreUIComponents.dll:CoreUIComponents.dll (00007FF8538E0000), size: 3067904 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FF85D800000), size: 1482752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\system32\Oleacc.dll:Oleacc.dll (00007FF81B620000), size: 479232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.2.26100.9818
+C:\WINDOWS\system32\explorerframe.dll:explorerframe.dll (00007FFFFBB50000), size: 3305472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\powrprof.dll:powrprof.dll (00007FF863CE0000), size: 385024 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3912
+C:\WINDOWS\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FF863CC0000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.9818_none_3e071914e3359bdd\comctl32.dll:comctl32.dll (00007FF84AFB0000), size: 2691072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.10.26100.9818
+C:\WINDOWS\SYSTEM32\TextShaping.dll:TextShaping.dll (00007FF82F4E0000), size: 1044480 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\mfplat.dll:mfplat.dll (00007FF85B9A0000), size: 2256896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\RTWorkQ.DLL:RTWorkQ.DLL (00007FF85BCA0000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8972
+C:\WINDOWS\SYSTEM32\mfreadwrite.dll:mfreadwrite.dll (00007FFFB36A0000), size: 872448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\Mf.dll:Mf.dll (00007FF85C630000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\MFCORE.DLL:MFCORE.DLL (00007FFFB3140000), size: 4300800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\CompPkgSup.DLL:CompPkgSup.DLL (00007FF857670000), size: 217088 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\Windows\System32\Windows.Media.dll:Windows.Media.dll (00007FF81D0C0000), size: 6914048 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\Windows\System32\Windows.ApplicationModel.dll:Windows.ApplicationModel.dll (00007FF82F400000), size: 880640 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\Windows\System32\Windows.StateRepositoryPS.dll:Windows.StateRepositoryPS.dll (00007FF82C160000), size: 802816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\Windows\System32\AppXDeploymentClient.dll:AppXDeploymentClient.dll (00007FF85CE10000), size: 1515520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\windows.staterepositoryclient.dll:windows.staterepositoryclient.dll (00007FF83B6F0000), size: 294912 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\windows.staterepositorycore.dll:windows.staterepositorycore.dll (00007FF853660000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FF8618C0000), size: 1323008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (00007FF85B010000), size: 630784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\System32\DEVOBJ.dll:DEVOBJ.dll (00007FF863BF0000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\AudioSes.dll:AudioSes.dll (00007FF83B740000), size: 1785856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\ProgramData\A-Volute\A-Volute.Nahimic\Modules\Scheduled\x64\ProductInfo.dll:ProductInfo.dll (00007FF814F10000), size: 421888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.10.15.0
+C:\ProgramData\A-Volute\A-Volute.Nahimic\Modules\Scheduled\x64\ASM.Plugin.AudioDevProps2.dll:ASM.Plugin.AudioDevProps2.dll (00007FF85B590000), size: 274432 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.2.0
+C:\WINDOWS\SYSTEM32\resourcepolicyclient.dll:resourcepolicyclient.dll (00007FF8605F0000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FF861650000), size: 2486272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll:directxdatabasehelper.dll (00007FF85E510000), size: 389120 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\DriverStore\FileRepository\nvlti.inf_amd64_205d10e9dfea6908\nvldumdx.dll:nvldumdx.dll (00007FF814E20000), size: 802816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.9174
+C:\WINDOWS\SYSTEM32\wldp.dll:wldp.dll (00007FF8636A0000), size: 458752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\drvstore.dll:drvstore.dll (00007FF859690000), size: 1552384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\System32\DriverStore\FileRepository\nvlti.inf_amd64_205d10e9dfea6908\nvgpucomp64.dll:nvgpucomp64.dll (00007FF80EE00000), size: 80736256 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.9174
+C:\WINDOWS\System32\DriverStore\FileRepository\nvlti.inf_amd64_205d10e9dfea6908\Display.NvContainer\NvMessageBus.dll:NvMessageBus.dll (00007FF84BDE0000), size: 3551232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.15.3538.9611
+C:\WINDOWS\System32\DriverStore\FileRepository\nvlti.inf_amd64_205d10e9dfea6908\NvMemMapStoragex.dll:NvMemMapStoragex.dll (00007FF80E830000), size: 1245184 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\DriverStore\FileRepository\nvlti.inf_amd64_205d10e9dfea6908\nvwgf2umx.dll:nvwgf2umx.dll (00007FF8093B0000), size: 84860928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.9174
+C:\WINDOWS\system32\nvspcap64.dll:nvspcap64.dll (00007FF808AA0000), size: 1339392 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.5.420
+C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FF862E20000), size: 221184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\WINDOWS\System32\DriverStore\FileRepository\nvlti.inf_amd64_205d10e9dfea6908\nvppex.dll:nvppex.dll (00007FFFB0280000), size: 1798144 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.9174
+E:\Unity\2022.3.62f3c1\Editor\cudart64_90.dll:cudart64_90.dll (00007FFF57F80000), size: 397312 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.14.11.9000
+C:\WINDOWS\SYSTEM32\opencl.dll:opencl.dll (00007FFF57F00000), size: 483328 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.0.6.0
+E:\Unity\2022.3.62f3c1\Editor\radeonrays.dll:radeonrays.dll (00007FFF57E70000), size: 557056 (result: 0), SymType: '-deferred-', PDB: ''
+E:\Unity\2022.3.62f3c1\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFF571B0000), size: 10825728 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FF845260000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FF84B310000), size: 548864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FF840F90000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9974
+C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FF841F60000), size: 1003520 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FF8404A0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FF863350000), size: 212992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26100.4-0\MpOav.dll:MpOav.dll (00007FF83E930000), size: 675840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 4.18.26100.4
+C:\WINDOWS\system32\dataexchange.dll:dataexchange.dll (00007FF81A090000), size: 372736 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\system32\twinapi.appcore.dll:twinapi.appcore.dll (00007FF857110000), size: 2424832 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\xinput1_3.dll:xinput1_3.dll (00007FF85A190000), size: 196608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26200.1
+C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_749d16baad25e716\igd10iumd64.dll:igd10iumd64.dll (00007FF852DD0000), size: 5353472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.101.6790
+C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_749d16baad25e716\igd10um64xe.DLL:igd10um64xe.DLL (00007FF851CB0000), size: 17903616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.101.6790
+C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_749d16baad25e716\IntelControlLib.dll:IntelControlLib.dll (00007FF816B80000), size: 704512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.1.240.0
+C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_749d16baad25e716\igdgmm64.dll:igdgmm64.dll (00007FF851680000), size: 5844992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.101.6790
+C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_749d16baad25e716\igc64.dll:igc64.dll (00007FF84C390000), size: 85233664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.101.6790
+C:\WINDOWS\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FF85E920000), size: 999424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.26100.9974
+C:\Windows\System32\Windows.FileExplorer.Common.dll:Windows.FileExplorer.Common.dll (00007FF827E60000), size: 802816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\Windows\System32\urlmon.dll:urlmon.dll (00007FF83EF00000), size: 1966080 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.26100.9818
+C:\Windows\System32\iertutil.dll:iertutil.dll (00007FF841BE0000), size: 2904064 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.26100.9818
+C:\Windows\System32\srvcli.dll:srvcli.dll (00007FF858110000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\Windows\System32\netutils.dll:netutils.dll (00007FF8625F0000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1882
+C:\WINDOWS\SYSTEM32\virtdisk.dll:virtdisk.dll (00007FF847950000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\system32\NetworkExplorer.dll:NetworkExplorer.dll (00007FF8472A0000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\WINDOWS\System32\RdpShellExecuteRedirector.dll:RdpShellExecuteRedirector.dll (00007FF815D20000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\WINDOWS\SYSTEM32\edputil.dll:edputil.dll (00007FF82CEE0000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9278
+C:\Windows\System32\cldapi.dll:cldapi.dll (00007FF82C9F0000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+C:\Windows\System32\uiautomationcore.dll:uiautomationcore.dll (00007FF81AC50000), size: 4325376 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.2.26100.9818
+C:\Windows\System32\threadpoolwinrt.dll:threadpoolwinrt.dll (00007FF838490000), size: 90112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8246
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FF8613F0000), size: 2408448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.9818
+
+========== OUTPUTTING STACK TRACE ==================
+
+0x000001B9E7692B68 (Mono JIT Code) UnityEditor.StyleSheets.StylePainter:DrawBlock (UnityEngine.GUIStyle,UnityEditor.StyleSheets.StyleBlock,UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.DrawStates)
+0x000001B9E768CE13 (Mono JIT Code) UnityEditor.StyleSheets.StylePainter:DrawStyle (UnityEngine.GUIStyle,UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.DrawStates)
+0x000001B9E768DC44 (Mono JIT Code) (wrapper delegate-invoke) <Module>:invoke_bool_GUIStyle_Rect_GUIContent_DrawStates (UnityEngine.GUIStyle,UnityEngine.Rect,UnityEngine.GUIContent,UnityEngine.DrawStates)
+0x000001B9E768C381 (Mono JIT Code) UnityEngine.GUIStyle:Draw (UnityEngine.Rect,UnityEngine.GUIContent,int,bool,bool,bool,bool)
+0x000001B9E76C1AD3 (Mono JIT Code) UnityEngine.GUIStyle:Draw (UnityEngine.Rect,UnityEngine.GUIContent,int)
+0x000001B9DF110DD3 (Mono JIT Code) UnityEditor.DockArea:DrawDockAreaBackground (UnityEngine.Rect)
+0x000001B9DF0AE11B (Mono JIT Code) UnityEditor.DockArea:OldOnGUI ()
+0x000001B9DF0938BF (Mono JIT Code) UnityEngine.UIElements.IMGUIContainer:DoOnGUI (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,bool,UnityEngine.Rect,System.Action,bool)
+0x000001B9DF092B0B (Mono JIT Code) UnityEngine.UIElements.IMGUIContainer:HandleIMGUIEvent (UnityEngine.Event,UnityEngine.Matrix4x4,UnityEngine.Rect,System.Action,bool)
+0x000001B9E7689D5B (Mono JIT Code) UnityEngine.UIElements.IMGUIContainer:DoIMGUIRepaint ()
+0x000001B9E76882B4 (Mono JIT Code) UnityEngine.UIElements.UIR.RenderChainCommand:ExecuteNonDrawMesh (UnityEngine.UIElements.UIR.DrawParams,single,System.Exception&)
+0x000001B9E7686AC3 (Mono JIT Code) UnityEngine.UIElements.UIR.UIRenderDevice:EvaluateChain (UnityEngine.UIElements.UIR.RenderChainCommand,UnityEngine.Material,UnityEngine.Material,UnityEngine.Texture,UnityEngine.Texture,single,Unity.Collections.NativeSlice`1<UnityEngine.UIElements.UIR.Transform3x4>,Unity.Collections.NativeSlice`1<UnityEngine.Vector4>,UnityEngine.MaterialPropertyBlock,bool,System.Exception&)
+0x000001B9E7683733 (Mono JIT Code) UnityEngine.UIElements.UIR.RenderChain:Render ()
+0x000001B9E0773F6B (Mono JIT Code) UnityEngine.UIElements.UIRRepaintUpdater:Update ()
+0x000001B9DF055996 (Mono JIT Code) UnityEngine.UIElements.VisualTreeUpdater:UpdateVisualTreePhase (UnityEngine.UIElements.VisualTreeUpdatePhase)
+0x000001B9E073731B (Mono JIT Code) UnityEngine.UIElements.Panel:UpdateForRepaint ()
+0x000001B9E07356C3 (Mono JIT Code) UnityEngine.UIElements.Panel:Repaint (UnityEngine.Event)
+0x000001B9DF055217 (Mono JIT Code) UnityEngine.UIElements.UIElementsUtility:DoDispatch (UnityEngine.UIElements.BaseVisualElementPanel)
+0x000001B9DF055043 (Mono JIT Code) UnityEngine.UIElements.UIElementsUtility:UnityEngine.UIElements.IUIElementsUtility.ProcessEvent (int,intptr,bool&)
+0x000001B9DF054E3F (Mono JIT Code) UnityEngine.UIElements.UIEventRegistration:ProcessEvent (int,intptr)
+0x000001B9DF054D7B (Mono JIT Code) UnityEngine.UIElements.UIEventRegistration/<>c:<.cctor>b__1_2 (int,intptr)
+0x000001B9DF054355 (Mono JIT Code) UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+0x000001B9DF054446 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_void_int_intptr_intptr& (object,intptr,intptr,intptr)
+0x00007FFF57444B7E (mono-2.0-bdwgc) [C:\build\output\Unity-Technologies\mono\mono\mini\mini-runtime.c:3445] mono_jit_runtime_invoke 
+0x00007FFF5737D204 (mono-2.0-bdwgc) [C:\build\output\Unity-Technologies\mono\mono\metadata\object.c:3068] do_runtime_invoke 
+0x00007FFF5737D37C (mono-2.0-bdwgc) [C:\build\output\Unity-Technologies\mono\mono\metadata\object.c:3115] mono_runtime_invoke 
+0x00007FF743258584 (Unity) scripting_method_invoke
+0x00007FF743234EB4 (Unity) ScriptingInvocation::Invoke
+0x00007FF74322FF05 (Unity) ScriptingInvocation::Invoke<void>
+0x00007FF74338A4CA (Unity) Scripting::UnityEngine::GUIUtilityProxy::ProcessEvent
+0x00007FF743D83F36 (Unity) GUIView::ProcessRetainedMode
+0x00007FF744336ED0 (Unity) GUIView::OnInputEvent
+0x00007FF743D83E23 (Unity) GUIView::ProcessInputEventFromAPI
+0x00007FF743D83CF8 (Unity) GUIView::ProcessInputEvent
+0x00007FF744330129 (Unity) GUIView::DoPaint
+0x00007FF744338E5C (Unity) GUIView::RepaintViews
+0x00007FF743E9663E (Unity) PlayerLoopController::InternalUpdateScene
+0x00007FF743EA340D (Unity) PlayerLoopController::UpdateSceneIfNeededFromMainLoop
+0x00007FF743EA16A1 (Unity) Application::TickTimer
+0x00007FF74430AF1A (Unity) MainMessageLoop
+0x00007FF7443102A4 (Unity) WinMain
+0x00007FF7456D34BE (Unity) __scrt_common_main_seh
+0x00007FF866C5DDA7 (KERNEL32) BaseThreadInitThunk
+0x00007FF866F79C5C (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/lenovo/AppData/Local/Temp/Unity/Editor/Crashes
